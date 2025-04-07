@@ -33,12 +33,12 @@ WHERE district LIKE 'K%a'
 
 SELECT *
 FROM payment
-WHERE payment_date BETWEEN '2005-06-15' AND '2005-06-18'
+WHERE DATE(payment_date) BETWEEN '2005-06-15' AND '2005-06-18'
   AND amount > 10.00;
 
 ```
 
-![image2](https://github.com/SirSeoPro/11-03/blob/main/2.png)
+![image5](https://github.com/SirSeoPro/11-03/blob/main/5.png)
 
 </details>
   
